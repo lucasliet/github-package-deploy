@@ -5,22 +5,22 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>dev.lucasliet</groupId>
-	<artifactId>Hello_World</artifactId>
-	<version>2</version>
+	<artifactId>hello_world</artifactId>
+	<version>0.3.1</version>
 
-	<name>Hello World</name>
+	<name>Github Package Deploy Test</name>
 	<description>First Package Deploy test</description>
 
 	<properties>
-		<maven.compiler.source>1.8</maven.compiler.source>
-		<maven.compiler.target>1.8</maven.compiler.target>
+		<maven.compiler.source>11</maven.compiler.source>
+		<maven.compiler.target>11</maven.compiler.target>
 	</properties>
 
 	<distributionManagement>
 		<repository>
 			<id>github</id>
 			<name>GitHub Packages</name>
-			<url>https://maven.pkg.github.com/lucasliet/hello_world</url>
+			<url>https://maven.pkg.github.com/lucasliet/github-package-deploy</url>
 		</repository>
 	</distributionManagement>
 </project>
