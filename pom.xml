@@ -5,11 +5,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>dev.lucasliet</groupId>
-	<artifactId>Generic_DAO</artifactId>
-	<version>1</version>
+	<artifactId>Hello_World</artifactId>
+	<version>2</version>
 
-	<name>Generic DAO</name>
-	<description>a Generic DAO with basic crud for use passing Entity Manager and Class through Constructor</description>
+	<name>Hello World</name>
+	<description>First Package Deploy test</description>
 
 	<properties>
 		<maven.compiler.source>1.8</maven.compiler.source>
@@ -20,15 +20,7 @@
 		<repository>
 			<id>github</id>
 			<name>GitHub Packages</name>
-			<url>https://maven.pkg.github.com/lucasliet/generic_dao</url>
+			<url>https://maven.pkg.github.com/lucasliet/hello_world</url>
 		</repository>
 	</distributionManagement>
-
-	<dependencies>
-		<dependency>
-			<groupId>javax</groupId>
-			<artifactId>javaee-api</artifactId>
-			<version>7.0</version>
-		</dependency>
-	</dependencies>
 </project>
